@@ -20,7 +20,7 @@
     };
     echo $text;
     // Replace path by your own font path
-    $font = 'https://github.com/kyle-tyler-300/extra_files/blame/main/unispace.ttf';
+    $font = '../extra_files/unispace.ttf';
  
     // Add the text
     imagettftext(
@@ -31,7 +31,7 @@
         270, // y
         $green, $font, $text);
  
-    imagepng($im, 'captcha.png');
+    imagepng($im, '../extra_files/captcha.png');
 //    echo '<img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="ronald.png">';
     imagedestroy($im);
     ?>
