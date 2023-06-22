@@ -4,7 +4,6 @@
   </head>
   <body style="margin: 0px; background: #0e0e0e; height: 100%">
     <?php
-    // Create the image
     $im = imagecreatetruecolor(1690, 400);
  
     // Create some colors
@@ -21,7 +20,7 @@
     };
     echo $text;
     // Replace path by your own font path
-    $font = './dynamicwave.ttf';
+    $font = 'https://github.com/kyle-tyler-300/extra_files/blame/main/unispace.ttf';
  
     // Add the text
     imagettftext(
